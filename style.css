@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.section-one {
+    background-color: #1f2937;
+}
+
+.header-row {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-links {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
