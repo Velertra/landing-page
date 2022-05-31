@@ -1,24 +1,64 @@
 body {
-    margin: 0;
+    margin: auto;
 }
+
+
+.section-one, .section-three, .section-four, .section-two, .footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}     
 
 .section-one {
     background-color: #1f2937;
 }
 
 .header-row {
-    padding: 10px;
+    
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 
 }
+
+.section-two {
+    display: flex;
+    
+    border: 8px solid red;
+
+}
+
+
+.header-content {
+    padding-right: 40px;
+}
+
 
 .header-links {
     display: flex;
     gap: 10px;
 }
 
-a {
+
+
+a, h1, h5, button, .header-content, .header {
     color: white;
     text-decoration: none;
 }
+
+button {
+    border: none;
+    
+    padding: 8px 24px;
+    background-color: blue;
+}
+
+.content {
+    border: 8px solid red;
+}
+
+.content-row-one {
+    display: flex;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
