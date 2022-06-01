@@ -46,6 +46,8 @@ body {
 }
 
 
+
+
 .header-links {
     display: flex;
     gap: 10px;
@@ -53,16 +55,62 @@ body {
 
 
 
-a, h1, h5, button, .header-content, .header {
+.section-four {
+    background-color: #3882f6;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100px;
+    justify-content: center;
+    
+}
+
+a, h1, button, .end-header, .end-text, .header-content, .header {
     color: white;
     text-decoration: none;
 }
 
-button {
-    border: none;
+.end-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color: white;
     
+
+}
+
+
+.sign-up {
+    background-color: #3882f6;
+    border: none;
     padding: 8px 24px;
-    background-color: blue;
+    border-radius: 10px;
+    line-height: 10px;
+}
+
+
+
+
+
+.sign-up-end {
+    border-color: white;
+    background-color: transparent;
+    padding: 8px 24px;
+    border-radius: 10px;
+    line-height: 10px;
+
 }
 
 .content {
@@ -79,12 +127,19 @@ button {
 .info-header {
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
 
 .section-three {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .quotist {
@@ -92,6 +147,7 @@ button {
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
+    font-weight: bolder;
 }
 
 .quote {
@@ -106,7 +162,19 @@ h1 {
     color: #f9faf8;
 }
 
-p {
+.section-one-text {
     font-size: 18px;
     color: #e5e7eb;;
+}
+
+.end-header {
+    margin-bottom: 0px;
+    
+}
+
+
+.ender-text {
+    display: flex;
+    flex-direction: column;
+    
 }
