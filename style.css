@@ -113,9 +113,8 @@ a, h1, button, .end-header, .end-text, .header-content, .header {
 
 }
 
-.content {
-    border: 8px solid red;
-}
+
+
 
 .content-row-one {
     display: flex;
@@ -177,4 +176,8 @@ h1 {
     display: flex;
     flex-direction: column;
     
+}
+
+img {
+    border-radius: 50px;
 }
