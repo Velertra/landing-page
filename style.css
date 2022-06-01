@@ -6,10 +6,14 @@ body {
 .section-one, .section-three, .section-four, .section-two, .footer {
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
 }     
 
 .section-one {
     background-color: #1f2937;
+    flex-direction: column;
 }
 
 .header-row {
@@ -21,15 +25,24 @@ body {
 }
 
 .section-two {
-    display: flex;
-    
+    flex-direction: column;
+
     border: 8px solid red;
+
+}
+
+.row-two-pics {
+
+    display: flex;
+    justify-content: center;
 
 }
 
 
 .header-content {
     padding-right: 40px;
+
+    
 }
 
 
@@ -58,7 +71,42 @@ button {
 
 .content-row-one {
     display: flex;
-    margin-top: 70px;
-    padding-bottom: 70px;
+    margin-top: 50px;
+    padding-bottom: 50px;  
 }
 
+
+.info-header {
+    display: flex;
+    justify-content: center;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotist {
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;;
+}
