@@ -11,3 +11,5 @@ Could have spent more time on the side borders so the could flex with the page.
 
 Also need work with git more. moving imgs. orginizing. 
 Go over the git section again.
+
+Need to add extra pages
