@@ -51,7 +51,12 @@ body {
 }
 
 
-
+img {   
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+}
 .section-four {
     background-color: #3882f6;
     margin-left: 130px;
