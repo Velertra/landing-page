@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    min-height: 100vh;
 }
 
 
@@ -14,6 +15,7 @@ body {
 .section-one {
     background-color: #1f2937;
     flex-direction: column;
+    
 }
 
 .header-row {
@@ -34,13 +36,14 @@ body {
 
     display: flex;
     justify-content: center;
+    
 
 }
 
 
 .header-content {
     padding-right: 40px;
-
+    width: 50vw;
     
 }
 
@@ -52,10 +55,11 @@ body {
 
 
 img {   
-    width: 200px;
-    height: 200px;
+    width: 20vmax;
+    height: 20vmax;
     object-fit: cover;
     margin: 5px;
+    
 }
 .section-four {
     background-color: #3882f6;
@@ -158,13 +162,14 @@ a, h1, button, .end-header, .end-text, .header-content, .header {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 5vh;
     font-weight: bolder;
     color: #f9faf8;
 }
 
 .section-one-text {
-    font-size: 18px;
+
+    font-size: 2vh;
     color: #e5e7eb;;
 }
 
