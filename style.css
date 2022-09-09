@@ -4,6 +4,11 @@ body {
 }
 
 
+img {
+    width: 20rem;
+    
+}
+
 .section-one, .section-three, .section-four, .section-two, .footer {
     padding-left: 100px;
     padding-right: 100px;
@@ -23,11 +28,22 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #1f2937;
 
 }
 
 .section-two {
     flex-direction: column;
+    font-size: calc(18px + 0.5vw);
 
 
 }
@@ -156,7 +172,7 @@ a, h1, button, .end-header, .end-text, .header-content, .header {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: calc(36px + 0.5vw);
     font-weight: lighter;
     font-style: italic;
 }
@@ -174,10 +190,9 @@ h1 {
 }
 
 .end-header {
-    margin-bottom: 0px;
-    
-}
-
+    margin-bottom: 0px;a::selection {
+        position: relative;
+    }
 
 .ender-text {
     display: flex;
@@ -188,3 +203,4 @@ h1 {
 img {
     border-radius: 50px;
 }
+
